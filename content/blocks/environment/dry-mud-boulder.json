@@ -1,5 +1,5 @@
 {
-"variants": 2, //кількість текстур 
-"type": "prop", //тип блоку
+"variants": 2, 
+"type": "prop", 
 "localizedName": "Валун з висушеної багнюки"
 }
