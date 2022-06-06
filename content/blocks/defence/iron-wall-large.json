@@ -1,0 +1,11 @@
+"type": "Wall",
+"health": 1200,
+"localizedName": "Велика залізна стіна",
+"size": 2,
+"absorbLasers": true
+"chanceDeflect": 50,
+"requirements": [
+  "lead/40"
+  ]
+"category": "defense"
+

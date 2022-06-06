@@ -1,0 +1,16 @@
+"type": "ShockMine",
+"localizedName": "Сповільнююча міна",
+"size": 1,
+"requirements": [
+    "lead/10"
+],
+"hasShadow": false,
+"placeableLiquid": true,
+"health": 100,
+"damage": 1,
+"tendrils": 10,
+"length": 5,
+"cooldown": 30,
+"status": "unmoving",
+"category": "effect",
+

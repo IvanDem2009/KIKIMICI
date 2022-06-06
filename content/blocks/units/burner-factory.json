@@ -1,0 +1,20 @@
+"type": "UnitFactory",
+"size": 1,
+"localizedName": "Фабрика випалювачів",
+"consumes": {
+  "power": 0
+}
+"plans": [
+  {
+    "unit": "burner",
+    "time": 50,
+    "requirements": [
+      "silicon/10"
+    ]
+  }
+]
+"requirements": [
+  "lead/75"
+  "silicon/40"
+],
+"category": "units"

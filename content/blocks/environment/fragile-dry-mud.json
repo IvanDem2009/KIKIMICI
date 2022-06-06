@@ -1,0 +1,6 @@
+"type": "Floor",
+"speedMultiplier": 0.5,
+"variants": 4,
+"isLiquid": false,
+"localizedName": "Крихка висушена багнюка",
+"itemDrop": "sand" //предмет що буде випадати при бурінні блока

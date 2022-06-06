@@ -1,0 +1,9 @@
+{
+	"name": "nuclearrampage", //назва моду у коді
+	"displayName": "Nuclear Rampage", // назва моду у браузері модів
+	"author":"IvanDem#1021", // автор моду
+	"description": "My JSON mod. My discord: IvanDem#1021.", // опис моду
+	"version": "0.1", // версія
+	"minGameVersion": 135, // мінімальна доступна для використання версія
+	"hidden": true// чи можна грати у мультиплеєрі. true = так. Я поставив цей параметр для зручності
+}

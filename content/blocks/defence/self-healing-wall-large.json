@@ -1,0 +1,15 @@
+"type": "MendProjector",
+"health": 400,
+"size": 2,
+"hasPower": false,
+"localizedName": "Велика  лікувальна стіна"
+"reload": 10,
+"healPercent": 2
+"range": 2,
+"phaseBoost": 0
+"phaseRangeBoost": 0
+"phaseColor": "5e9750"
+"category": "defense"
+"requirements": [
+  "silicon/80"
+]

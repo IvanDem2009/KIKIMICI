@@ -1,0 +1,18 @@
+"type": "ParticleWeather",
+"color": "96b4a1",
+"localizedName": "Радіація"
+"noiseColor": "aab9a4",
+"particleRegion": "particle",
+"sizeMax": 25,
+"sizeMin": 1,
+"density": 3000,
+"useWindVector": true,
+"drawNoise": true,
+"opacityMultiplier": 1,
+"baseSpeed": 3.1,
+"sound": "fire",
+"soundVol": 0.8,
+"force": 0.5,
+"attrs": {
+  "spores": 1.1
+}
