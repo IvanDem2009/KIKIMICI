@@ -1,7 +1,5 @@
 "type": "mech",
 "health": 600,
-"localizedName": "Вулкан",
-"description": "Випалює ворогів за допомогою двох потоків полум'я",
 "range": 200,
 "immunities": [
 "melting",

@@ -1,3 +1,2 @@
-"type": "StaticWall", //тип блоку
-"variants": 2, //кількість спрайтів
-"localizedName": "Стіна з висушеної багнюки" //назва блоку у грі
+"type": "StaticWall", 
+"variants": 2

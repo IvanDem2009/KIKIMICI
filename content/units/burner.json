@@ -1,35 +1,33 @@
-"type": "mech", /*тип юніта. mech - наземний, legs - павук, flying - літаючий, naval - корабель,
-payload - грузовий*/
-"speed": 0.4, //швидкість руху
-"rotateShooting": true, /*true - юніт обертається до курсору. false - юніт стоїть на місці, навіть якщо курсор
-розміщено за ним*/
-"hitSize": 16, // хітбокс юніта
-"health": 200, //здоров'я юніта'
-"range": 200, //радіус дії. Оптимальне значення = швидкість кулі * час життя кулі
-"rotateSpeed": 5, // швидкість обертання юніта
-"canBoost": false, // чи може юніт пришвидшуватися (літати)
-"localizedName": "Випалювач", // ім'я у грі. Необов'язкова змінна за наявності бандлів (bundles)
-"description": "Спалює ворогів потужними потоками полум'я. Не сприймає вогонь", // опис юніта. необов'язковий за наявності бандлів 
-"immunities": [ //іммунітети
-	"burning", //статус горіння
-	"melting" // статус плавлення
+"type": "mech", 
+"speed": 0.4, 
+"rotateShooting": true, 
+"hitSize": 16, 
+"health": 200, 
+"range": 200, 
+"rotateSpeed": 5, 
+"canBoost": false, 
+"localizedName": "Випалювач", 
+"description": "Спалює ворогів потужними потоками полум'я. Не сприймає вогонь", 
+"immunities": [ 
+	"burning", 
+	"melting" 
 ]
-"weapons": [ // зброя юніта
+"weapons": [ 
 	{
-	"name": "weapon-2", //назва зброї
-    "shootCone": 360, // розкид зброї
+	"name": "weapon-2", 
+    "shootCone": 360, 
     "x": 0,
     "y": 0,
-    "reload": 50, //час перезарядки зброї
-    "mirror": false, //чи дзеркально розташована зброя
-    "shots": 45, // кількість пострілів
-    "spacing": 8, // пробіл між пострілами
-    "shotDelay": 1, //перерва між пострілами
-    "shootSound": "laser", //звук пострілу
-    "bullet": { //куля
-      "type": "FireBulletType", //тип кулі
-      "length": 150, // довжина кулі
-      "damage": 10, //шкода від кулі
+    "reload": 50, 
+    "mirror": false, 
+    "shots": 45,
+    "spacing": 8, 
+    "shotDelay": 1, 
+    "shootSound": "laser", 
+    "bullet": { 
+      "type": "FireBulletType", 
+      "length": 150, 
+      "damage": 10, 
     }
 	}
 ]

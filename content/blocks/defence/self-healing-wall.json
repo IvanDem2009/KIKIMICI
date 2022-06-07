@@ -1,14 +1,13 @@
 "type": "MendProjector",
 "health": 100,
 "hasPower": false,
-"localizedName": "Лікувальна стіна"
 "reload": 10,
-"healPercent": 2
+"healPercent": 2,
 "range": 2,
 "phaseBoost": 0
 "phaseRangeBoost": 0
-"phaseColor": "5e9750"
-"category": "defense"
+"phaseColor": "5e9750",
+"category": "defense",
 "requirements": [
   "silicon/20"
 ]

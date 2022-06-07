@@ -1,6 +1,5 @@
 "type": "Wall",
 "health": 300,
-"localizedName": "Залізна стіна",
 "size": 1,
 "absorbLasers": true
 "chanceDeflect": 50,

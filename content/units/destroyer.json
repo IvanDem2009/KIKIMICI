@@ -1,31 +1,27 @@
-"type": "mech", /*тип юніта. mech - наземний, legs - павук, flying - літаючий, naval - корабель,
-payload - грузовий*/
-"speed": 1.5, //швидкість руху
-"rotateShooting": true, /*true - юніт обертається до курсору. false - юніт стоїть на місці, навіть якщо курсор
-розміщено за ним*/
-"hitSize": 16, // хітбокс юніта
-"health": 100, //здоров'я юніта'
-"range": 200, //радіус дії. Оптимальне значення = швидкість кулі * час життя кулі
-"rotateSpeed": 5, // швидкість обертання юніта
-"canBoost": false, // чи може юніт пришвидшуватися (літати)
-"localizedName": "Винищувач", // ім'я у грі. Необов'язкова змінна за наявності бандлів (bundles)
-"description": "Знищує ворога розривними ракетами", // опис юніта. необов'язковий за наявності бандлів 
-"weapons": [ // зброя юніта
+"type": "mech", 
+"speed": 1.5, 
+"rotateShooting": true, 
+"hitSize": 16, 
+"health": 100, 
+"range": 200, 
+"rotateSpeed": 5, 
+"canBoost": false,  
+"weapons": [ 
 	{
-		"name": "weapon-1", // назва спрайту зброї у файлах
-		"x": 4, // положення зброї по осі Х
-		"y": 0, // положення зброї по осі Y
-		"shootX": 2, // положення початкової точки пострілу по осі Х
-		"shootY": 2, // положення початкової точки пострілу по осі Y
-		"rotate": false, // чи може зброя обертатися
-		"reload": 40, // час перезарядки зброї
-		"bullet": { // куля зброї
-			"type": "MissileBulletType", // тип кулі
-			"damage": 10, // шкода кулі
-			"speed": 5, // швидкість польоту кулі
-			"lifetime": 40, // час життя кулі
-			"splashDamage": 10, // шкода по площі
-			"splashDamageRadius": 15// радіус шкоди по площі
+		"name": "weapon-1", 
+		"x": 4, 
+		"y": 0, 
+		"shootX": 2, 
+		"shootY": 2, 
+		"rotate": false, 
+		"reload": 40, 
+		"bullet": { 
+			"type": "MissileBulletType", 
+			"damage": 10, 
+			"speed": 5, 
+			"lifetime": 40, 
+			"splashDamage": 10, 
+			"splashDamageRadius": 15
 		}
 	}
 ]

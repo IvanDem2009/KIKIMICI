@@ -1,5 +1,4 @@
 "type": "Floor",
 "speedMultiplier": 0.5,
 "variants": 3,
-"isLiquid": false,
-"localizedName": "Висушена багнюка"
+"isLiquid": false

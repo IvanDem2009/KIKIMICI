@@ -1,6 +1,5 @@
 "type": "UnitFactory",
 "size": 1,
-"localizedName": "Фабрика винищувачів",
 "consumes": {
   "power": 0
 }

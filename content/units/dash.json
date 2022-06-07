@@ -1,8 +1,6 @@
 "type": "mech",
 "health": 50,
 "speed": 1.5,
-"localizedName": "Прорив",
-"description": "З кожним пострілом переміщується вперед наносячи шкоду противникам",
 "rotateSpeed": 20,
 "lightRadius": 25,
 "lightColor": "ffffff",
