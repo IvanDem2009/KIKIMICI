@@ -1,2 +1,0 @@
-block.nuclearrampage-name = Large Iron Wall
-block.nuclearrampage.description= Large Iron Wall 
