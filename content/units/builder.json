@@ -1,8 +1,8 @@
 "type": "mech",
-"speed": 0.3, 
+"speed": 1, 
 "rotateShooting": true, 
 "hitSize": 16, 
-"health": 100, 
+"health": 90, 
 "range": 30, 
 "rotateSpeed": 5, 
 "weapons": [ 
@@ -11,19 +11,19 @@
     "mirror": false,
     "rotate": true,
     "rotateSpeed": 4.2,
-    "reload": 100,
+    "reload": 30,
     "shake": 1,
     "bullet": {
       "type": "ContinuousLaserBulletType",
-      "damage": 2,
+      "damage": 1,
       "lifetime": 100,
-      "length": 10,
+      "length": 5,
       "drawSize": 1,
-      "width": 30,
+      "width": 5,
       "colors": ["e6555520", "e6555570", "e65555", "ffffff"],
       "lightColor": "e65555",
       "incendChance": 0.1,
-      "recoil": 25
+      "recoil": 5
     }
   }
 ],
