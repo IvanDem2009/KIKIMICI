@@ -1,0 +1,42 @@
+"type": "mech",
+"speed": 0.3, 
+"rotateShooting": true, 
+"hitSize": 16, 
+"health": 100, 
+"range": 100, 
+"rotateSpeed": 5, 
+"canBoost": false, 
+"weapons": [ 
+{
+    "name": "noweapon",
+    "y": -6,
+    "xRand": 6,
+    "mirror": false,
+    "shotDelay": 2,
+    "shots": 8,
+    "shootCone": 180,
+    "minShootVelocity": 0.4,
+    "inaccuracy": 90,
+    "reload": 80,
+    "bullet": {
+      "type": "BombBulletType",
+      "splashDamage": 10,
+      "splashDamageRadius": 40,
+      "lifetime": 85,
+      "height": 8,
+      "width": 8,
+      "frontColor": "ffffff",
+      "backColor": "e65555",
+      "lightColor": "e65555",
+      "despawnEffect": "flakExplosion"
+    }
+  }
+]
+"abilities": [
+  {
+    "type": "RepairFieldAbility",
+    "range": 3,
+    "amount": 1,
+    "reload": 10
+  }
+]
