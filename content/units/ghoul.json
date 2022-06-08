@@ -3,33 +3,44 @@
 "rotateShooting": true, 
 "hitSize": 16, 
 "health": 100, 
-"range": 100, 
+"range": 30, 
 "rotateSpeed": 5, 
-"canBoost": false, 
 "weapons": [ 
-{
-    "name": "noweapon",
-    "y": -6,
-    "xRand": 6,
+  {
+  "name": "phage-weapon",
     "mirror": false,
-    "shotDelay": 2,
-    "shots": 8,
-    "shootCone": 180,
-    "minShootVelocity": 0.4,
-    "inaccuracy": 90,
-    "reload": 80,
+    "rotate": true,
+    "rotateSpeed": 4.2,
+    "reload": 100,
+    "shake": 1,
     "bullet": {
-      "type": "BombBulletType",
-      "splashDamage": 10,
-      "splashDamageRadius": 40,
-      "lifetime": 85,
-      "height": 8,
-      "width": 8,
-      "frontColor": "ffffff",
-      "backColor": "e65555",
+      "type": "ContinuousLaserBulletType",
+      "damage": 2,
+      "lifetime": 100,
+      "length": 10,
+      "drawSize": 1,
+      "width": 30,
+      "colors": ["e6555520", "e6555570", "e65555", "ffffff"],
       "lightColor": "e65555",
-      "despawnEffect": "flakExplosion"
+      "incendChance": 0.1,
+      "recoil": 25
     }
+  }
+],
+"abilities": [
+  {
+    "type": "RepairFieldAbility",
+    "range": 3,
+    "amount": 1,
+    "reload": 10
+  }
+]
+"abilities": [
+  {
+    "type": "RepairFieldAbility",
+    "range": 3,
+    "amount": 1,
+    "reload": 10
   }
 ]
 "abilities": [
