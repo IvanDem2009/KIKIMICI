@@ -1,0 +1,68 @@
+"type": "UnitFactory",
+"size": 1,
+"consumes": {
+  "power": 0
+}
+"plans": [
+  {
+    "unit": "builder",
+    "time": 50,
+    "requirements": [
+      "silicon/70"
+    ]
+  },
+  {
+    "unit": "burnerr",
+    "time": 50,
+    "requirements": [
+      "silicon/150"
+    ]
+  },
+  {
+    "unit": "charger",
+    "time": 50,
+    "requirements": [
+      "silicon/100"
+    ]
+  },
+  {
+    "unit": "dash",
+    "time": 50,
+    "requirements": [
+      "silicon/70"
+    ]
+  },
+  {
+    "unit": "destroyer",
+    "time": 50,
+    "requirements": [
+      "silicon/85"
+    ]
+  },
+  {
+    "unit": "freezer",
+    "time": 50,
+    "requirements": [
+      "silicon/120"
+    ]
+  },
+  {
+    "unit": "ghoul",
+    "time": 50,
+    "requirements": [
+      "silicon/100"
+    ]
+  },
+  {
+    "unit": "soldier",
+    "time": 50,
+    "requirements": [
+      "silicon/140"
+    ]
+  }
+]
+"requirements": [
+  "lead/75"
+  "silicon/40"
+],
+"category": "units"
