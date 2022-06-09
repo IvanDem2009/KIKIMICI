@@ -12,7 +12,7 @@
     ]
   },
   {
-    "unit": "burnerr",
+    "unit": "burner",
     "time": 50,
     "requirements": [
       "silicon/150"
