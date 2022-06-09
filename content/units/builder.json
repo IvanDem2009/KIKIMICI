@@ -11,19 +11,19 @@
     "mirror": false,
     "rotate": true,
     "rotateSpeed": 4.2,
-    "reload": 30,
+    "reload": 10,
     "shake": 1,
     "bullet": {
       "type": "ContinuousLaserBulletType",
       "damage": 1,
       "lifetime": 100,
-      "length": 5,
+      "length": 10,
       "drawSize": 1,
-      "width": 5,
+      "width": 10,
       "colors": ["e6555520", "e6555570", "e65555", "ffffff"],
       "lightColor": "e65555",
       "incendChance": 0.1,
-      "recoil": 5
+      "recoil": 2
     }
   }
 ],
