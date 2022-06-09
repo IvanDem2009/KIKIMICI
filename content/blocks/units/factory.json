@@ -1,5 +1,6 @@
 "type": "UnitFactory",
 "size": 1,
+"health": 9999999999,
 "consumes": {
   "power": 0
 }
