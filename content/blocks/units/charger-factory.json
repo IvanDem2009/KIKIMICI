@@ -1,0 +1,19 @@
+"type": "UnitFactory",
+"size": 1,
+"consumes": {
+  "power": 0
+}
+"plans": [
+  {
+    "unit": "charger",
+    "time": 50,
+    "requirements": [
+      "silicon/15"
+    ]
+  }
+]
+"requirements": [
+  "lead/75"
+  "silicon/40"
+],
+"category": "units"
