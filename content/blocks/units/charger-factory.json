@@ -8,7 +8,7 @@
     "unit": "charger",
     "time": 50,
     "requirements": [
-      "silicon/15"
+      "silicon/20"
     ]
   }
 ]

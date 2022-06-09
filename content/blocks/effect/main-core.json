@@ -1,0 +1,12 @@
+{
+	"type": "CoreBlock",
+	"health": 1500,
+	"size": 3,
+	"itemCapacity": 100,
+	"unitCapModifier": 1,
+    "unitType": "core-unit-1",
+	"requirements": [
+		"silicon/10"
+	],
+  "category": "effect"
+}

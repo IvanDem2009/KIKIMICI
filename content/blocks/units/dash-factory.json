@@ -8,7 +8,7 @@
     "unit": "dash",
     "time": 50,
     "requirements": [
-      "silicon/10"
+      "silicon/20"
     ]
   }
 ]
