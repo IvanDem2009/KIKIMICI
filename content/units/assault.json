@@ -1,28 +1,25 @@
-"type": "mech", 
-"speed": 1.5, 
+"type": "tank",
+"speed": 1, 
 "rotateShooting": true, 
-"hitSize": 16, 
-"health": 100, 
+"hitSize": 30, 
+"health": 140, 
 "range": 200, 
 "rotateSpeed": 5, 
-"canBoost": false,  
+"canBoost": false, 
 "weapons": [ 
 	{
-		"name": "weapon-1", 
-		"x": 4, 
-		"y": 0, 
-		"shootX": 2, 
-		"shootY": 2, 
+		"name": "weapon-8",  
 		"rotate": false, 
-		"reload": 40, 
+		"mirror": false,
+		"reload": 80, 
 		"bullet": { 
-			"type": "MissileBulletType", 
-			"damage": 10, 
-			"speed": 5, 
+			"type": "LaserBoltBulletType", 
+			"damage": 30, 
+			"speed": 4, 
 			"lifetime": 40, 
 			"splashDamage": 10, 
 			"splashDamageRadius": 15,
-			"knockback": 4
+			"knockback": 5
 		}
 	}
 ]

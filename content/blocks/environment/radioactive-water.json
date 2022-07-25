@@ -3,4 +3,5 @@
 "variants": 0,
 "isLiquid": true, 
 "cacheLayer": "water", 
-"liquidDrop": "water" 
+"liquidDrop": "water",
+"status": "unmoving"

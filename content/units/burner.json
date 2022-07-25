@@ -6,8 +6,6 @@
 "range": 200, 
 "rotateSpeed": 5, 
 "canBoost": false, 
-"localizedName": "Випалювач", 
-"description": "Спалює ворогів потужними потоками полум'я. Не сприймає вогонь", 
 "immunities": [ 
 	"burning", 
 	"melting" 
