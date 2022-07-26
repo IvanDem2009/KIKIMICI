@@ -1,0 +1,32 @@
+
+ENG
+Nuclear Rampage is a mod for fighting in multiplayer. 
+Currently, there are two modes: 
+
+Duel
+Two teams choose their fightning units and try to destroy each other`s cores. 
+I am making maps for this mode right now. 
+
+How to make maps for duels:
+Size: 200x100 (width = 200, height = 100)
+Cores: place two main cores in the center and two secondary cores on the edges
+Spawners: place 1-2 spawners on the bottom of map, add item source. Place starting plates near the spawn.
+Environment: place environment walls on the edge of map and normal walls in the middle. I recommend you to place floors under objectives: then you can easily mirror the map
+
+Play it on PvP mode
+
+
+4/4
+There are four teams. Each team has one core at the start. Also, there are two derelict cores near each base. 
+If you break the core - it changes color to your team. Goal: destroy all cores
+
+How to make maps for 4/4: 
+Size: 250x250 (width = 250, height = 250)
+Cores: place main core at the middle line and two derelict secondary cores near main core.
+Spawner: place a spawner with an item source next to the core
+Environment: the only rule - use environment blocks that are in the mod
+
+Play it on PvP mode
+
+Also, I am making a processor that will hit the cores every ** seconds.
+
