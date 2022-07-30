@@ -19,7 +19,7 @@
 			"lifetime": 40, 
 			"splashDamage": 10, 
 			"splashDamageRadius": 15,
-			"knockback": 5
+			"knockback": 2
 		}
 	}
 ]

@@ -2,7 +2,7 @@
 "speed": 0.4, 
 "rotateShooting": true, 
 "hitSize": 16, 
-"health": 200, 
+"health": 210, 
 "range": 200, 
 "rotateSpeed": 5, 
 "canBoost": false, 
@@ -12,7 +12,7 @@
 ]
 "weapons": [ 
 	{
-	"name": "weapon-2", 
+	"name": "weapon-2", //TODO why this doesnt work on V7??
     "shootCone": 360, 
     "x": 0,
     "y": 0,
@@ -24,7 +24,7 @@
     "shootSound": "laser", 
     "bullet": { 
       "type": "FireBulletType", 
-      "length": 150, 
+      "length": 110, 
       "damage": 10, 
     }
 	}
