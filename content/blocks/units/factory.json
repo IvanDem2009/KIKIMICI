@@ -6,14 +6,7 @@
     "unit": "builder",
     "time": 2000,
     "requirements": [
-      "silicon/70"
-    ]
-  },
-  {
-    "unit": "burner",
-    "time": 2000,
-    "requirements": [
-      "silicon/150"
+      "silicon/100"
     ]
   },
   {
@@ -27,21 +20,14 @@
     "unit": "dash",
     "time": 2000,
     "requirements": [
-      "silicon/70"
+      "silicon/100"
     ]
   },
   {
     "unit": "destroyer",
     "time": 2000,
     "requirements": [
-      "silicon/85"
-    ]
-  },
-  {
-    "unit": "freezer",
-    "time": 2000,
-    "requirements": [
-      "silicon/120"
+      "silicon/100"
     ]
   },
   {
@@ -55,16 +41,23 @@
     "unit": "soldier",
     "time": 2000,
     "requirements": [
-      "silicon/140"
+      "silicon/100"
     ]
   },
     {
     "unit": "assault",
     "time": 2000,
     "requirements": [
-      "silicon/150"
+      "silicon/100"
     ]
-  }
+  },
+  {
+    "unit": "regenerator",
+    "time": 2000,
+    "requirements": [
+      "silicon/100"
+    ]
+  },
 ]
 "requirements": [
   "lead/75"

@@ -1,9 +1,6 @@
-"type": "mech", 
-"speed": 1, 
-"rotateShooting": true, 
-"hitSize": 16, 
-"health": 200, 
-"range": 200, 
+"type": "mech",
+"health": 120,
+"speed": 1,
 "rotateSpeed": 5, 
 "canBoost": false, 
 "immunities": [ 
@@ -15,16 +12,19 @@
     "shootCone": 360, 
     "x": 0,
     "y": -2,
-    "reload": 50, 
+    "reload": 100, 
     "mirror": false,
-    "shots": 45, 
+    "shoot": {
+  "shots": 45,
+  "shotDelay": 1,
+ "shootCone": 360, 
+},
     "spacing": 8, 
-    "shotDelay": 1, 
     "shootSound": "laser", 
     "bullet": { 
       "type": "LaserBulletType", 
       "length": 50, 
-      "damage": 5, 
+      "damage": 1, 
       "color": "0000ff"
     }
 	}
