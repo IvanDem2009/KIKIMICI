@@ -1,7 +1,0 @@
-"type": "Floor", 
-"speedMultiplier": 0.9, 
-"variants": 0,
-"isLiquid": true, 
-"cacheLayer": "water", 
-"liquidDrop": "water",
-"status": "unmoving"
